@@ -34,10 +34,10 @@
         "android.permission.ACCESS_COARSE_LOCATION",
         "android.permission.ACCESS_FINE_LOCATION"
       ],
-      "package": "com.anonymous.ChessBoard"
+      "package": "com.merveillevaneck.timloc"
     },
     "ios": {
-      "bundleIdentifier": "com.anonymous.ChessBoard",
+      "bundleIdentifier": "com.merveillevaneck.timloc",
       "infoPlist": {
         "UIBackgroundModes": ["location"]
       }

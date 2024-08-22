@@ -27,7 +27,7 @@
         <category android:name="android.intent.category.DEFAULT"/>
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="acme"/>
-        <data android:scheme="com.anonymous.ChessBoard"/>
+        <data android:scheme="com.merveillevaneck.timloc"/>
         <data android:scheme="exp+chessboard"/>
       </intent-filter>
     </activity>
