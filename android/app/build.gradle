@@ -109,9 +109,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.ChessBoard'
+    namespace 'com.merveillevaneck.timloc'
     defaultConfig {
-        applicationId 'com.anonymous.ChessBoard'
+        applicationId 'com.merveillevaneck.timloc'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
