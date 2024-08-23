@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, View, StyleSheet } from 'react-native';
 import * as TaskManager from 'expo-task-manager';
 import * as Location from 'expo-location';
+import * as Linking from "expo-linking";
 import { useLocationStore } from '@/store/location-store';
 
 export const LOCATION_TASK_NAME = 'background-location-task';
@@ -15,6 +16,10 @@ const requestPermissions = async () => {
         accuracy: Location.Accuracy.High,
       });
     }
+  } else {
+    (async () => {
+        await Linking.openSettings();
+    })();
   }
 };
 
